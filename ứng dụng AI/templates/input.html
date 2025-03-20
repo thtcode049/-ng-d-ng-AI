@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dự đoán doanh thu</title>
+</head>
+<body>
+    <h1>Nhập dữ liệu để dự đoán doanh thu</h1>
+    <form method="POST">
+        <label for="QuantityInv">Số lượng trên mỗi hóa đơn:</label>
+        <input type="number" name="QuantityInv" id="QuantityInv" required><br><br>
+
+        <label for="UnitPrice">Giá đơn vị:</label>
+        <input type="number" name="UnitPrice" id="UnitPrice" required><br><br>
+
+        <label for="Month">Tháng (1-12):</label>
+        <input type="number" name="Month" id="Month" min="1" max="12" required><br><br>
+
+        <button type="submit">Dự đoán</button>
+    </form>
+</body>
+</html>
