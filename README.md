@@ -1,1 +1,1 @@
-# -ng-d-ng-AI
+# Ứng dụng AI
